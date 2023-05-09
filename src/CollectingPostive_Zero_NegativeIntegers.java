@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class CollectingPostive_Zero_NegativeIntegers {
     public static void main(String[] args) {
+        System.out.println("==AN APP THAT TAKES POSITIVE AND NEGATIVE INTEGERS & PRINT THE RESULT==");
         Scanner userInput = new Scanner (System.in);
         int collector =0;
         int input =0;

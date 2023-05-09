@@ -23,9 +23,9 @@ public class OutputAvOfValidScore {
             totalSum = validScores+sum;
 
         }
-//        System.out.println("The average of total scores ==>" + sum/count +"\n");
-//        System.out.println("the sum of total score==>"+sum);
-//        System.out.println("valid scores is==>"+validScores);
+        System.out.println("The average of total scores ==>" + sum/count +"\n");
+        System.out.println("the sum of total score==>"+sum);
+        System.out.println("valid scores is==>"+validScores);
         System.out.println("the Average of valid scores is==> "+totalSum/validScores);
     }
 }
