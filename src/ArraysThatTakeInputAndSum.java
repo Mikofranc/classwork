@@ -8,6 +8,7 @@ public class ArraysThatTakeInputAndSum {
         int [] userInput = new int[5];
         int sum =0;
         int inputCollector = 0;
+
         for(int index = 0; index < userInput.length; index++){
             inputCollector = scanner.nextInt();
             userInput[index]= inputCollector;
