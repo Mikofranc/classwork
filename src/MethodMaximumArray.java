@@ -5,24 +5,21 @@ public class MethodMaximumArray {
         int minimum = minValue(numbers);
         System.out.println("the maximum number in the arrays is  :: " + maximum);
         System.out.println("the mainimum number in the arrays is  :: " + minimum);
-
     }
-    public static int maxValue(int[] array){
-        int maximumValue = array[0];
-        for(int index =1; index < array.length; index++){
-            if (array[index] > maximumValue){
-                maximumValue =array[index];
+    public static int maxValue(int[] arrayOfNumbers){
+        int maximumValue = arrayOfNumbers[0];
+        for(int index =1; index < arrayOfNumbers.length; index++){
+            if (arrayOfNumbers[index] > maximumValue){
+                maximumValue =arrayOfNumbers[index];
             }
         }
         return maximumValue;
     }
-
-
-  public static int minValue(int[] array){
-        int minimumValue = array[0];
-      for(int index =1; index < array.length; index++){
-        if (array[index] < minimumValue){
-            minimumValue = array[index];
+  public static int minValue(int[] arrayOfNumbers){
+        int minimumValue = arrayOfNumbers[0];
+      for(int index =1; index < arrayOfNumbers.length; index++){
+        if (arrayOfNumbers[index] < minimumValue){
+            minimumValue = arrayOfNumbers[index];
         }
       }
       return  minimumValue;
